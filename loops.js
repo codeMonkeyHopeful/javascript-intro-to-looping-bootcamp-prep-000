@@ -20,11 +20,13 @@ function incrementVariable() {
  
 function doWhileLoop(array) {
 var i = 0;
+ 
 function incrementVariable() {
   i = i + 1;
 }
+ 
 do {
   array.pop()
   incrementVariable();
-} while (array.lenght > 0 && incrementVariable());
+} while (array.length > 0 && intrementalVariable();
 }
