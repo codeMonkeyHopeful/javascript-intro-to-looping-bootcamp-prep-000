@@ -19,6 +19,6 @@ function incrementVariable() {
 }
  
 do {
-  console.log("doo-bee-doo-bee-doo");
+  array.pop()
   incrementVariable();
-} while (i < 5);
+} while (array.lenght > 0 && incrementVariable());
