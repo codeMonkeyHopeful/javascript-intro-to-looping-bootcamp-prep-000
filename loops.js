@@ -18,7 +18,9 @@ function incrementVariable() {
   i = i + 1;
 }
  
+function doWhileLoop(array) {
 do {
   array.pop()
   incrementVariable();
 } while (array.lenght > 0 && incrementVariable());
+}
