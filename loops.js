@@ -16,9 +16,11 @@ function whileLoop(n) {
 
 function incrementVariable() {
   i = i + 1;
+  return array[i] === -1 ? false : true;
 }
 
 function doWhileLoop(array) {
+  var i = 0;
   do {
     array.pop();
   } while(array.length > 0 && incrementVariable())
