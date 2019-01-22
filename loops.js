@@ -28,5 +28,5 @@ function incrementVariable() {
 do {
   array.pop()
   incrementVariable();
-} while (i < array.length  && intrementalVariable();
+} while ( array.length  && intrementalVariable();
 }
